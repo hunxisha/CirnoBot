@@ -1,0 +1,17 @@
+{
+    "1": {
+        "name": "\u535a\u4e3d\u7075\u68a6\u7684\u5fa1\u5e01",
+        "price": 100,
+        "introduce": "\u7075\u68a6\u7684\u5fa1\u5e01\uff0c\u529f\u80fd\u5f85\u5f00\u53d1\u3002\u3002\u3002"
+    },
+    "2": {
+        "name": "\u535a\u4e3d\u7075\u68a6\u7684\u5deb\u5973\u670d",
+        "price": 300,
+        "introduce": "\u7075\u68a6\u7684\u5fa1\u5e01\uff0c\u529f\u80fd\u5f85\u5f00\u53d1\u3002\u3002\u3002"
+    },
+    "3": {
+        "name": "\u742a\u9732\u8bfa\u7684\u667a\u5546",
+        "price": 999,
+        "introduce": "\u529f\u80fd\u5f85\u5f00\u53d1\u3002\u3002\u3002"
+    }
+}
