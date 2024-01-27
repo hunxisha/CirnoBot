@@ -1,3 +1,8 @@
+"""
+调用和风天气API
+下面的 xxx 改成自己的 key
+"""
+
 import requests
 
 
@@ -8,7 +13,7 @@ def city_id(city_name):
     :return:
     """
     # 设置API的URL和参数
-    url = f"https://geoapi.qweather.com/v2/city/lookup?key=6d7c630d3c474306bab106180605f521&location={city_name}"
+    url = f"https://geoapi.qweather.com/v2/city/lookup?key=xxx&location={city_name}"
 
     # 发送GET请求v2
     response = requests.get(url)
@@ -27,7 +32,7 @@ def weather(city_name):
     city_id1 = city_id(city_name)
     # 实时天气
     # 设置API的URL和参数
-    url = f"https://devapi.qweather.com/v7/weather/now?key=6d7c630d3c474306bab106180605f521&location={city_id1}"
+    url = f"https://devapi.qweather.com/v7/weather/now?key=xxx&location={city_id1}"
 
     # 发送GET请求
     response = requests.get(url)
@@ -52,7 +57,7 @@ def weather(city_name):
     txt = txt + f'\n天气预报    城市:{city_name}\n'
     # 天气预报
     # 设置API的URL和参数
-    url1 = f"https://devapi.qweather.com/v7/weather/3d?key=6d7c630d3c474306bab106180605f521&location={city_id1}"
+    url1 = f"https://devapi.qweather.com/v7/weather/3d?key=xxx&location={city_id1}"
 
     # 发送GET请求
     response1 = requests.get(url1)
