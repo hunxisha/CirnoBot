@@ -3,6 +3,14 @@
 
 **瞎写的机器人，仅供参考**
 
+## 环境配置
+```
+pip install qq-botpy
+pip install requests
+pip install pillow
+```
+
+
 ## 目前功能
 - 帮助
 - 签到
